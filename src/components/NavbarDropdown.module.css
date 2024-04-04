@@ -1,0 +1,19 @@
+.navbar > ul {
+  display: none;
+}
+
+.navbar:hover {
+  color: black;
+  box-shadow: #00000069 0 0 6px 0px;
+}
+.navbar:hover > name {
+    font-weight: bold;
+}
+
+.navbar:hover > ul {
+  display: flex;
+  flex-direction: column;
+  box-shadow: #00000069 0px 6px 6px 0px;
+  background-color: white;
+  min-width: 150%;
+}

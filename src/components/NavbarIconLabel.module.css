@@ -1,0 +1,14 @@
+.navbarlabel > .label {
+  width: 0px;
+  min-width: 0px;
+  max-width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+
+  transition: all ease-in-out 250ms;
+}
+
+.navbarlabel:hover > .label {
+  width: auto;
+  max-width: 6rem;
+}

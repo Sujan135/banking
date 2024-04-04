@@ -1,0 +1,7 @@
+.icon {
+  @apply text-green-600;
+}
+
+.icon:hover {
+  @apply bg-green-600 text-white;
+}
